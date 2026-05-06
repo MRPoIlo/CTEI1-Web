@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Lógico - CTeI 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar">
+    <div class="container">
+        <div class="nav-brand">Marco Lógico</div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Inicio</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Marco Lógico</h1>
+        <p class="hero-subtitle">Estructura del Proyecto de Investigación</p>
+        <a href="index.html" class="btn btn-primary">Volver al Portafolio</a>
+    </div>
+</section>
+
+<!-- PASOS -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Pasos del Marco Lógico</h2>
+
+        <div class="projects-grid pasos-grid">
+
+            <a href="#involucrados" class="project-card paso-card">
+                <span class="paso-num">Paso 1</span>
+                <h3>Análisis de involucrados</h3>
+                <p>Identificación de actores del proyecto</p>
+            </a>
+
+            <a href="#problemas" class="project-card paso-card">
+                <span class="paso-num">Paso 2</span>
+                <h3>Árbol de problemas</h3>
+                <p>Identificación de causas y efectos</p>
+            </a>
+
+            <a href="#objetivos" class="project-card paso-card">
+                <span class="paso-num">Paso 3</span>
+                <h3>Árbol de objetivos</h3>
+                <p>Transformación de problemas en soluciones</p>
+            </a>
+
+            <a href="#estrategia" class="project-card paso-card">
+                <span class="paso-num">Paso 4</span>
+                <h3>Selección de estrategia</h3>
+                <p>Definición del camino a seguir</p>
+            </a>
+
+            <a href="#estructura" class="project-card paso-card">
+                <span class="paso-num">Paso 5</span>
+                <h3>Estructura del proyecto</h3>
+                <p>Organización del proyecto</p>
+            </a>
+
+            <a href="#resumen" class="project-card paso-card">
+                <span class="paso-num">Paso 6</span>
+                <h3>Resumen narrativo</h3>
+                <p>Descripción final del proyecto</p>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===================== -->
+<!-- PASO 1 -->
+<!-- ===================== -->
+<section id="involucrados" class="section about">
+    <div class="container">
+        <h2 class="section-title">Paso 1: Análisis de involucrados</h2>
+        
+        <p>
+        Identificación de actores clave como residentes, administradores del conjunto y entidades energéticas. 
+        Se analizan intereses, influencia y posibles impactos en el proyecto.
+        </p>
+
+        <h3>Documento PDF</h3>
+        <a href="Analisis de Involucrados.pdf" target="_blank" class="btn btn-secondary">Abrir</a>
+
+        <!-- MAPA -->
+        <h3 style="margin-top:40px;">Mapa de Actores</h3>
+        <p>Relación entre actores según poder e interés.</p>
+
+        <img src="Mapa_Actores.png" alt="Mapa de actores"
+             style="width:100%; max-width:800px; border-radius:10px; margin-top:20px;">
+
+        <!-- TABLA -->
+        <h3 style="margin-top:40px;">Tabla de Involucrados</h3>
+
+<div style="overflow-x:auto; margin-top:20px;">
+    <table style="width:100%; border-collapse: collapse; min-width:700px;">
+
+        <thead>
+            <tr style="background:linear-gradient(90deg,#6c5ce7,#a29bfe); color:white;">
+                <th style="padding:12px;">Involucrado</th>
+                <th style="padding:12px;">Categoría</th>
+                <th style="padding:12px;">Expectativa</th>
+                <th style="padding:12px;">Fuerza</th>
+                <th style="padding:12px;">Resultante</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Estudiantes Investigadores</td>
+                <td>Educativo</td>
+                <td>5</td>
+                <td>5</td>
+                <td><strong>25</strong></td>
+            </tr>
+
+            <tr>
+                <td>Universidad de Cundinamarca</td>
+                <td>Educativo</td>
+                <td>4</td>
+                <td>5</td>
+                <td><strong>20</strong></td>
+            </tr>
+
+            <tr>
+                <td>Residentes conjunto La Fiorita</td>
+                <td>Social</td>
+                <td>5</td>
+                <td>4</td>
+                <td><strong>20</strong></td>
+            </tr>
+
+            <tr>
+                <td>Alcaldía de Chía (Medio Ambiente)</td>
+                <td>Político</td>
+                <td>4</td>
+                <td>4</td>
+                <td><strong>16</strong></td>
+            </tr>
+
+            <tr>
+                <td>Ministerios (Minas / Educación)</td>
+                <td>Político</td>
+                <td>3</td>
+                <td>5</td>
+                <td><strong>15</strong></td>
+            </tr>
+
+            <tr>
+                <td>Proveedores sistemas fotovoltaicos</td>
+                <td>Económico</td>
+                <td>4</td>
+                <td>3</td>
+                <td><strong>12</strong></td>
+            </tr>
+
+            <tr>
+                <td>Administradora La Fiorita</td>
+                <td>Social</td>
+                <td>3</td>
+                <td>4</td>
+                <td><strong>12</strong></td>
+            </tr>
+
+            <tr>
+                <td>Entidades Ambientales (IDEAM/CAR)</td>
+                <td>Político</td>
+                <td>4</td>
+                <td>3</td>
+                <td><strong>12</strong></td>
+            </tr>
+
+            <tr>
+                <td>Empresas servicios públicos</td>
+                <td>Económico</td>
+                <td>2</td>
+                <td>5</td>
+                <td><strong>10</strong></td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+        <!-- ANALISIS -->
+        <h3 style="margin-top:40px;">Análisis</h3>
+<h5>Mayor detalle en el pdf</h5>
+<br>
+        <p>
+        Los residentes tienen alto impacto al ser usuarios directos, pero su influencia es media. 
+        La administración posee alta influencia por su rol decisivo en la implementación del proyecto.
+        </p>
+<br>
+        <p>
+        Las entidades energéticas presentan alta influencia debido a regulaciones, aunque su impacto 
+        directo en el uso cotidiano es menor.
+        </p>
+
+    </div>
+</section>
+
+<!-- ===================== -->
+<!-- PASO 2 -->
+<!-- ===================== -->
+<section id="problemas" class="section">
+    <div class="container">
+        <h2 class="section-title">Paso 2: Árbol de problemas</h2>
+        <p>
+        Se identifican causas y efectos del problema central: alto consumo energético 
+        y emisiones contaminantes por uso de gas.
+        </p>
+    </div>
+</section>
+
+<!-- ===================== -->
+<!-- PASO 3 -->
+<!-- ===================== -->
+<section id="objetivos" class="section about">
+    <div class="container">
+        <h2 class="section-title">Paso 3: Árbol de objetivos</h2>
+        <p>
+        Transformación del problema en soluciones mediante energía fotovoltaica.
+        </p>
+    </div>
+</section>
+
+<!-- ===================== -->
+<!-- PASO 4 -->
+<!-- ===================== -->
+<section id="estrategia" class="section">
+    <div class="container">
+        <h2 class="section-title">Paso 4: Selección de estrategia</h2>
+        <p>
+        Implementación de sistemas fotovoltaicos como solución principal.
+        </p>
+    </div>
+</section>
+
+<!-- ===================== -->
+<!-- PASO 5 -->
+<!-- ===================== -->
+<section id="estructura" class="section about">
+    <div class="container">
+        <h2 class="section-title">Paso 5: Estructura Analítica del Proyecto</h2>
+        <p>
+        Organización del proyecto en componentes y actividades.
+        </p>
+    </div>
+</section>
+
+<!-- ===================== -->
+<!-- PASO 6 -->
+<!-- ===================== -->
+<section id="resumen" class="section">
+    <div class="container">
+        <h2 class="section-title">Paso 6: Resumen narrativo</h2>
+        <p>
+        Integración completa del marco lógico.
+        </p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
